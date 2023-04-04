@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Loginpage{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.97;
+    transition: opacity 0.25s ease 0s;
+    visibility: visible;
+    z-index: 2;
+}
+.Loginpage-div{
+    background-color: rgb(255, 255, 255);
+    padding-bottom:10px ;
+    margin: auto;
+    width: 450px;
+    margin-top: 40px ;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(28, 28, 28, 0.15) 0px 1.2rem 7rem;
+    z-index: 1;
+}
+.Loginpage-div-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.Loginpage-div-div button{
+    width: 20px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+
+}
+.phonecode{
+    position: absolute;
+    z-index: 1;
+    left: 14px;
+    top: 14px;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 1.2rem;
+}
+.login-phone-div{
+    position: relative;
+    margin: 5px 20px;
+}.type-no:focus{
+    border: 3px solid rgb(7, 87, 139);
+    outline: none;
+}
+
+.type-no{
+    
+    width: 410px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    padding-left: 100px;
+    color: gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.Loginbtn{
+    margin: 5px 20px;
+    margin-top: 15px;
+    width: 410px;
+    border-radius: 5px;
+    background-color:rgb(239, 79, 95);
+    height: 50px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    opacity: .8;
+}
+.Loginbtn:hover{
+    opacity: 1;
+}
+hr{
+    margin: 20px 20px;
+    background-color: rgb(201, 201, 201);
+}
+.extra-gg-btn{
+    margin: 5px 20px;
+    margin-top: 15px;
+    width: 410px;
+    border-radius: 5px;
+    background-color: transparent;
+    height: 50px;
+    color:rgb(105, 105, 105);
+    font-size: 1.2rem;
+    border: 1px solid rgb(201, 201, 201);
+}
+.Loginpage-div p{
+    margin: 15px 20px;
+    font-size: 1.3rem;
+    color:rgb(54, 54, 54)
+}
+.Loginpage-div p a{
+    text-decoration: none;
+    color: rgb(239, 79, 95);
+    cursor: pointer;
+}
+.signup-fullname,.sigup-email{
+    position: relative;
+    margin: 15px 20px;
+}
+.signup-fullname-input,.sigup-email-input{
+    width: 410px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    padding-left: 10px;
+    color: gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.signup-fullname label,.sigup-email label{
+    position:absolute;
+    left:0;
+    top:0;
+    padding:10px;
+    font-size: 1.2rem;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    opacity:0.5;
+    background:white;
+}
+.signup-fullname-input:focus + label,.sigup-email-input:focus + label{
+    opacity:1;
+    transform: scale(0.75) translateY(-60%) translateX(5px);
+}
+.signup-fullname-input:focus,.sigup-email-input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+.signup-checkbox{
+    display:flex;
+    margin: 0px 20px;
+}
+.signup-checkbox input{
+    width:30px;
+    accent-color: rgb(239, 79, 95);
+
+}
+.signup-checkbox p{
+    font-size: 1rem;
+}

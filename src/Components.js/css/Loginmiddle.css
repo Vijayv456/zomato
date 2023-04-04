@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.phone{
+    width: 440px;
+}
+.Loginmiddle{
+    padding: 100px 200px;
+    display: flex;
+    gap: 40px
+}
+.Loginmiddle-head{
+    padding: 50px 0px;
+}
+.Loginmiddle-head h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.Loginmiddle-head p{
+    font-size: 1.5rem;
+    color:gray;
+    padding-bottom: 50px;
+}
+.radio-mail {
+    height: 20px;
+    width: 20px;
+    accent-color: rgb(211, 54, 54);
+}
+.radio-mail-label{
+    padding-right: 50px;
+    padding-left: 10px;
+    font-size: 1.35rem;
+}
+.radio-btn{
+    margin-bottom: 30px;
+}
+/* input */
+.email-input-login{
+    position: relative;
+}
+.text-type{
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    padding-left: 15px;
+    color: gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    outline: none;
+}
+.text-type-label{
+    font-size: 1.2rem;
+    padding:10px;
+    pointer-events: none;
+    position:absolute;
+    left:0;
+    top:0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    opacity:0.5;
+            background: #fff;
+           
+}
+.text-type:focus{
+    border: 1px solid red;
+}
+.text-type:focus +.text-type-label{
+    opacity:1;
+    transform: scale(0.75) translateY(-70%) translateX(0px);
+           
+}
+/* input */
+.text-type-no{
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    padding-left: 100px;
+    color: gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.Share-app-btn{
+    margin-left: 10px;
+    height: 50px;
+    width: 145px;
+    border: none;
+    background-color: rgb(211, 54, 54);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+.phone-code{
+    position: absolute;
+    z-index: 1;
+    left: 14px;
+    top: 14px;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 1.2rem;
+}
+.phone-div{
+    position: relative;
+}
+.text-type-no:focus {
+    border: 3px solid rgb(7, 87, 139);
+    outline: none;
+  }
+

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container{
+    display: flex;
+  padding: 20px 150px;
+  justify-content: right;
+  gap:260px;
+    
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.loginheader{
+    width: 155px;
+    height: 30px;
+}
+.btn{
+    margin-left: 10px;
+}
+.headerbtn{
+    border: none;
+    width: 100px;
+    height: 42px;
+    background-color: white;
+    font-size: 1.1rem;
+    color: gray;
+}
+.headerbtn:hover{
+    color: black;
+}
